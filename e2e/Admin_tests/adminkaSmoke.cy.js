@@ -24,7 +24,7 @@ const isRussian = () => {
 }
 const adminPanel = () => {
     isEnglish();
-    cy.get('.team_soft_administration', { timeout: 10000 }).click();
+    cy.get('.team_soft_administration', { timeout: 100000 }).click();
 }
 describe("Smoke test Adminka", () => {
 
